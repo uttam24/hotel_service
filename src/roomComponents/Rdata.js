@@ -2,7 +2,7 @@ const Rdata = [
 {
 	id:1,
 	roomprice:20,
-	imgsrc:"images/room_1.jpeg", 
+	imgsrc:"/images/room_1.jpeg", 
 	hoteTitle:"Deluxe Black Room",
 	textC:"	A spacious deluxe room which has a double bed and a single bed. Ideal for any...",
 	user:"2",
@@ -12,7 +12,7 @@ const Rdata = [
 {
 	id:2,
 	roomprice:50,
-	imgsrc:"images/room_2.jpeg", 
+	imgsrc:"/images/room_2.jpeg", 
 	hoteTitle:"Standart Economic Single Room",
 	textC:"Economy Single Room is well-furnished guest rooms 11 square meters with the m...",
 	user:"1",
@@ -22,7 +22,7 @@ const Rdata = [
 {
 	id:3,
 	roomprice:50,
-	imgsrc:"images/room_3.jpg",
+	imgsrc:"/images/room_3.jpg",
 	hoteTitle:"Studio Broadway Room",
 	textC:"Classic Rooms in the our Hotel have been refurbished to a very high standard....",
 	user:"3",
@@ -32,7 +32,7 @@ const Rdata = [
 {
 	id:4,
 	roomprice:90,
-	imgsrc:"images/room_4.jpeg",
+	imgsrc:"/images/room_4.jpeg",
 	hoteTitle:'Standart Double Room',
 	textC:"Furnished in classic and essential style, these comfortable rooms have balcon...",
 	user:"3",
@@ -42,7 +42,7 @@ const Rdata = [
 {
 	id:5,
 	roomprice:60,
-	imgsrc:"images/room_5.jpg",
+	imgsrc:"/images/room_5.jpg",
 	hoteTitle:'Standart One Person Room',
 	textC:"The classic room is equipped with desk and chair, 2 single beds, TV and plent...",
 	user:"2",
@@ -52,7 +52,7 @@ const Rdata = [
 {
 	id:6,
 	roomprice:70,
-	imgsrc:"images/room_6.jpeg",
+	imgsrc:"/images/room_6.jpeg",
 	hoteTitle:'Standart Economic Double Room',
 	textC:"Our Economy room has everything you might need to relax, at the best rate pos...",
 	user:"4",
@@ -62,7 +62,7 @@ const Rdata = [
 {
 	id:7,
 	roomprice:120,
-	imgsrc:"images/room_7.jpeg",
+	imgsrc:"/images/room_7.jpeg",
 	hoteTitle:'Standart Big Room',
 	textC:"Ah, the humble studio apartment. At one time, this dwelling was considered to...",
 	user:"2",
@@ -72,7 +72,7 @@ const Rdata = [
 {
 	id:8,
 	roomprice:80,
-	imgsrc:"images/room_8.jpeg",
+	imgsrc:"/images/room_8.jpeg",
 	hoteTitle:'Deluxe Yellow Room',
 	textC:"Our Economy room has everything you might need to relax, at the best rate pos...",
 	user:"4",
@@ -82,7 +82,7 @@ const Rdata = [
 {
 	id:9,
 	roomprice:90,
-	imgsrc:"images/room_6.jpeg",
+	imgsrc:"/images/room_6.jpeg",
 	hoteTitle:'Standart Economic Double Room',
 	textC:"Our Economy room has everything you might need to relax, at the best rate pos...",
 	user:"4",
@@ -92,7 +92,7 @@ const Rdata = [
 {
 	id:10,
 	roomprice:50,
-	imgsrc:"images/room_7.jpeg",
+	imgsrc:"/images/room_7.jpeg",
 	hoteTitle:'Standart Big Room',
 	textC:"Ah, the humble studio apartment. At one time, this dwelling was considered to...",
 	user:"2",

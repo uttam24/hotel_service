@@ -140,6 +140,7 @@ section{padding: 25px 0}
 .thank_modal-content h3 {color:#871b2a;}
 .myStyle{display: block;}
 
+#add2 ,#add3{display: none}
 @keyframes transform{
   0%,100% { border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%; }
   14% { border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%; } 

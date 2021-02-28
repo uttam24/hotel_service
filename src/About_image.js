@@ -4,7 +4,7 @@ const About_image = ()=> {
   return (
     <>
     	<div className="about_img">
-       		<img src="images/about_hotel.jpg"/>
+       		<img src={process.env.PUBLIC_URL + '/images/about_hotel.jpg'}/>
        		<div className="overlay">
        			<div className="content">
        				<h2>Book Now And<br/> Get Benefit</h2>

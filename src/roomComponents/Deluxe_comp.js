@@ -11,7 +11,7 @@ const Deluxe_comp= () => {
 			{Deluxe_room.map((val, index) =>{
 					return(
 						<Col xs={12} md={6} lg={6}>
-							<Deluxe_box roomprice={val.roomprice} imgsrc={val.imgsrc} hoteTitle={val.hoteTitle} textC={val.textC} user={val.user} bell={val.bell} chart={val.chart}/>
+							<Deluxe_box roomprice={val.roomprice} imgsrc={process.env.PUBLIC_URL + val.imgsrc} hoteTitle={val.hoteTitle} textC={val.textC} user={val.user} bell={val.bell} chart={val.chart}/>
 						</Col>
 					)
 				})}

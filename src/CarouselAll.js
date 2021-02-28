@@ -26,12 +26,12 @@ const CarouselAll = () =>{
 
 	return(
 		<Carousel responsive={responsive}>
-		   <div><ItemCarousel price="Book now from $90.00" imgsrc="images/c-1.jpeg" title="Standart Blue Room" text="Massive three bedroom, two full bathroom corner apartment located in a beautiful midtow..." footertext="2 adult(s) and 1 child(ren)"/></div>
-		   <div><ItemCarousel price="Book now from $20.00" imgsrc="images/c-2.jpeg" title="Studio Corporate Room" text="Whether you are travelling on business or on leisure, our corporate studio room's locat..." footertext="2 adult(s) and 1 child(ren)"/></div>
-		   <div><ItemCarousel price="Book now from $50.00" imgsrc="images/c-3.jpeg" title="Studio Room of Creativity" text="Lving in an open-plan city apartment, packed with innovative storage, some expert inter..." footertext="6 adult(s) and 1 child(ren)"/></div>
-		   <div><ItemCarousel price="Book now from $80.00" imgsrc="images/c-4.jpeg" title="Studio Small Kids Room" text="Kit out your kids room for less with our affordable children's furniture. Loads of styl... " footertext="2 adult(s) and 6 child(ren)"/></div>
-		   <div><ItemCarousel price="Book now from $50.00" imgsrc="images/c-5.jpeg" title="Studio Room of Creativity" text="Lving in an open-plan city apartment, packed with innovative storage, some expert inter..." footertext="6 adult(s) and 1 child(ren)"/></div>
-		   <div><ItemCarousel price="Book now from $20.00" imgsrc="images/c-6.jpeg" title="Studio Small Kids Room" text="Kit out your kids room for less with our affordable children's furniture. Loads of styl... " footertext="2 adult(s) and 6 child(ren)"/></div>
+		   <div><ItemCarousel price="Book now from $90.00" imgsrc= {process.env.PUBLIC_URL + '/images/c-1.jpeg'}  title="Standart Blue Room" text="Massive three bedroom, two full bathroom corner apartment located in a beautiful midtow..." footertext="2 adult(s) and 1 child(ren)"/></div>
+		   <div><ItemCarousel price="Book now from $20.00" imgsrc={process.env.PUBLIC_URL + '/images/c-2.jpeg'}  title="Studio Corporate Room" text="Whether you are travelling on business or on leisure, our corporate studio room's locat..." footertext="2 adult(s) and 1 child(ren)"/></div>
+		   <div><ItemCarousel price="Book now from $50.00" imgsrc={process.env.PUBLIC_URL + '/images/c-3.jpeg'} title="Studio Room of Creativity" text="Lving in an open-plan city apartment, packed with innovative storage, some expert inter..." footertext="6 adult(s) and 1 child(ren)"/></div>
+		   <div><ItemCarousel price="Book now from $80.00" imgsrc={process.env.PUBLIC_URL + '/images/c-4.jpeg'} title="Studio Small Kids Room" text="Kit out your kids room for less with our affordable children's furniture. Loads of styl... " footertext="2 adult(s) and 6 child(ren)"/></div>
+		   <div><ItemCarousel price="Book now from $50.00" imgsrc={process.env.PUBLIC_URL + '/images/c-5.jpeg'} title="Studio Room of Creativity" text="Lving in an open-plan city apartment, packed with innovative storage, some expert inter..." footertext="6 adult(s) and 1 child(ren)"/></div>
+		   <div><ItemCarousel price="Book now from $20.00" imgsrc={process.env.PUBLIC_URL + '/images/c-6.jpeg'} title="Studio Small Kids Room" text="Kit out your kids room for less with our affordable children's furniture. Loads of styl... " footertext="2 adult(s) and 6 child(ren)"/></div>
 		</Carousel>
 		)
 }

@@ -18,7 +18,7 @@ class HotelPrice extends React.Component{
 					return(
 					<PriceCard 
 					key={val.id}
-					imgsrc={val.imgsrc} 
+					imgsrc={process.env.PUBLIC_URL + val.imgsrc} 
 					title={val.title} 
 					descr={val.descr}/>
 					)

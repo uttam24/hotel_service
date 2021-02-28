@@ -128,7 +128,7 @@ const Hotel_slider =(prop)=>{
 					</div>
 					<div className="location_room">
 					<div className="room_pic">
-						<img src="../images/hotel_book.jpg" alt=""/>
+						<img src={process.env.PUBLIC_URL + '/images/hotel_book.jpg'}  alt=""/>
 					</div>
 					<div className="left_scroll">
 					<h3>Deluxe Black Room</h3>
@@ -193,7 +193,7 @@ const Hotel_slider =(prop)=>{
 			 <Modal show={show} onHide={handleClose}>
 		        <Modal.Header closeButton>
 			        <Modal.Title>Global Payments</Modal.Title>
-			        <img src="../images/card_img.png"/>
+			        <img src={process.env.PUBLIC_URL + '/images/card_img.png'} />
 			        </Modal.Header>
 			        <Modal.Body>
 			        <div className="card_body">
@@ -206,7 +206,7 @@ const Hotel_slider =(prop)=>{
 				                <Form.Group>
 				                  <Form.Control type="text"  onChange={userHandler}/>
 				                    {user?<span>Not valid</span>:""}
-				                  <img src="../images/visa_card.png"/>
+				                  <img src={process.env.PUBLIC_URL + '/images/visa_card.png'} />
 				                
 				                  </Form.Group>
 				             </Col>	

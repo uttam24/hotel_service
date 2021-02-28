@@ -1,23 +1,23 @@
 import React from 'react';
 import { Button, Container, Card, Row, Col, Form  } from 'react-bootstrap';
 
-const imgs = [{tag:"Room", src:"images/room_gallery.jpg?raw=true"},
-              {tag:"Room", src:"images/room_gallery1.jpg?raw=true"},
-              {tag:"Room", src:"images/room_gallery2.jpg?raw=true"},
-              {tag:"Room", src:"images/room_gallery3.jpg?raw=true"},
-              {tag:"Traveller", src:"images/room_travel.jpeg?raw=true"},
-              {tag:"Traveller", src:"images/room_travel1.jpeg?raw=true"},
-              {tag:"Traveller", src:"images/room_travel2.jpeg?raw=true"},
-              {tag:"Traveller", src:"images/room_travel3.jpeg?raw=true"},
-              {tag:"Traveller", src:"images/room_travel4.jpeg?raw=true"},
-              {tag:"Traveller", src:"images/room_travel5.jpeg?raw=true"},
-              {tag:"Traveller", src:"images/room_travel6.jpeg?raw=true"},
-              {tag:"Traveller", src:"images/room_travel7.jpeg?raw=true"},
-              {tag:"Traveller", src:"images/room_travel8.jpeg?raw=true"},
-              {tag:"Traveller", src:"images/room_travel9.jpg?raw=true"},
-              {tag:"Traveller", src:"images/room_travel10.jpg?raw=true"},
-              {tag:"Traveller", src:"images/room_travel11.jpg?raw=true"},
-              {tag:"Traveller", src:"images/room_travel12.jpg?raw=true"},
+const imgs = [{tag:"Room", src:"/images/room_gallery.jpg?raw=true"},
+              {tag:"Room", src:"/images/room_gallery1.jpg?raw=true"},
+              {tag:"Room", src:"/images/room_gallery2.jpg?raw=true"},
+              {tag:"Room", src:"/images/room_gallery3.jpg?raw=true"},
+              {tag:"Traveller", src:"/images/room_travel.jpeg?raw=true"},
+              {tag:"Traveller", src:"/images/room_travel1.jpeg?raw=true"},
+              {tag:"Traveller", src:"/images/room_travel2.jpeg?raw=true"},
+              {tag:"Traveller", src:"/images/room_travel3.jpeg?raw=true"},
+              {tag:"Traveller", src:"/images/room_travel4.jpeg?raw=true"},
+              {tag:"Traveller", src:"/images/room_travel5.jpeg?raw=true"},
+              {tag:"Traveller", src:"/images/room_travel6.jpeg?raw=true"},
+              {tag:"Traveller", src:"/images/room_travel7.jpeg?raw=true"},
+              {tag:"Traveller", src:"/images/room_travel8.jpeg?raw=true"},
+              {tag:"Traveller", src:"/images/room_travel9.jpg?raw=true"},
+              {tag:"Traveller", src:"/images/room_travel10.jpg?raw=true"},
+              {tag:"Traveller", src:"/images/room_travel11.jpg?raw=true"},
+              {tag:"Traveller", src:"/images/room_travel12.jpg?raw=true"},
              
 ];
 
@@ -56,7 +56,7 @@ const Cards = ({imgs}) =>
       (img, i)=>
       <li  key={i}>
         <figure>
-          <img src={img.src} alt={img.author}/>
+          <img src={process.env.PUBLIC_URL + img.src}  alt={img.author}/>
           <figcaption> 
             <div>{img.author} </div>
             <span>{img.tag}</span>
