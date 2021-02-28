@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/hotel_service/static/css/main.7c2dc56b.chunk.css",
-    "main.js": "/hotel_service/static/js/main.9367cfa2.chunk.js",
-    "main.js.map": "/hotel_service/static/js/main.9367cfa2.chunk.js.map",
-    "runtime-main.js": "/hotel_service/static/js/runtime-main.c0daba4a.js",
-    "runtime-main.js.map": "/hotel_service/static/js/runtime-main.c0daba4a.js.map",
+    "main.js": "/hotel_service/static/js/main.7cab7398.chunk.js",
+    "main.js.map": "/hotel_service/static/js/main.7cab7398.chunk.js.map",
+    "runtime-main.js": "/hotel_service/static/js/runtime-main.d1b0f435.js",
+    "runtime-main.js.map": "/hotel_service/static/js/runtime-main.d1b0f435.js.map",
     "static/css/2.e58cccbe.chunk.css": "/hotel_service/static/css/2.e58cccbe.chunk.css",
-    "static/js/2.b06e653c.chunk.js": "/hotel_service/static/js/2.b06e653c.chunk.js",
-    "static/js/2.b06e653c.chunk.js.map": "/hotel_service/static/js/2.b06e653c.chunk.js.map",
-    "static/js/3.9d0b7e4f.chunk.js": "/hotel_service/static/js/3.9d0b7e4f.chunk.js",
-    "static/js/3.9d0b7e4f.chunk.js.map": "/hotel_service/static/js/3.9d0b7e4f.chunk.js.map",
+    "static/js/2.e36ba270.chunk.js": "/hotel_service/static/js/2.e36ba270.chunk.js",
+    "static/js/2.e36ba270.chunk.js.map": "/hotel_service/static/js/2.e36ba270.chunk.js.map",
+    "static/js/3.70f63aad.chunk.js": "/hotel_service/static/js/3.70f63aad.chunk.js",
+    "static/js/3.70f63aad.chunk.js.map": "/hotel_service/static/js/3.70f63aad.chunk.js.map",
     "static/js/4.7f35ed12.chunk.js": "/hotel_service/static/js/4.7f35ed12.chunk.js",
     "static/js/4.7f35ed12.chunk.js.map": "/hotel_service/static/js/4.7f35ed12.chunk.js.map",
     "index.html": "/hotel_service/index.html",
     "static/css/2.e58cccbe.chunk.css.map": "/hotel_service/static/css/2.e58cccbe.chunk.css.map",
     "static/css/main.7c2dc56b.chunk.css.map": "/hotel_service/static/css/main.7c2dc56b.chunk.css.map",
-    "static/js/2.b06e653c.chunk.js.LICENSE.txt": "/hotel_service/static/js/2.b06e653c.chunk.js.LICENSE.txt",
+    "static/js/2.e36ba270.chunk.js.LICENSE.txt": "/hotel_service/static/js/2.e36ba270.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/hotel_service/static/media/revicons.e8746a62.woff",
     "static/media/slick-theme.css": "/hotel_service/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.c0daba4a.js",
+    "static/js/runtime-main.d1b0f435.js",
     "static/css/2.e58cccbe.chunk.css",
-    "static/js/2.b06e653c.chunk.js",
+    "static/js/2.e36ba270.chunk.js",
     "static/css/main.7c2dc56b.chunk.css",
-    "static/js/main.9367cfa2.chunk.js"
+    "static/js/main.7cab7398.chunk.js"
   ]
 }
