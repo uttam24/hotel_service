@@ -22,7 +22,7 @@ const Room_Item= () => {
 			{Rdata.slice(0,visible).map((val, index) =>{
 					return(
 						<Col xs={12} md={6} lg={6}>
-							<Link target="_blank" to={"/booking_page/"+val.roomprice} className="paramhit"><Room_box  roomprice={val.roomprice} imgsrc={process.env.PUBLIC_URL + val.imgsrc}  hoteTitle={val.hoteTitle} textC={val.textC} user={val.user} bell={val.bell} chart={val.chart}/></Link>
+							<Room_box  roomprice={val.roomprice} imgsrc={process.env.PUBLIC_URL + val.imgsrc}  hoteTitle={val.hoteTitle} textC={val.textC} user={val.user} bell={val.bell} chart={val.chart}/>
 						</Col>
 					)
 				})}

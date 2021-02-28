@@ -20,7 +20,7 @@ const App = ()=> {
             <Route path='/gallery' component ={Gallerypage}/>
             <Route path='/about' component ={About_Comp}/>
             <Route path='/contact' component ={Contact_us}/>
-            <Route path='/booking_page/:roomprice'  component ={Hotel_economic}/>
+            <Route path='/booking-page/:roomprice'  component ={Hotel_economic}/>
         </Switch>
       <Footer/>
     </div>
